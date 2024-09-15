@@ -1,0 +1,85 @@
+/* General styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #333;
+    color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* Form elements */
+.stButton > button {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    font-size: 1rem;
+    padding: 0.8em;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #333;
+}
+
+.css-1cpxqw2 {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.stSelectbox, .stNumberInput {
+    margin-bottom: 1.5rem;
+}
+
+/* Container styling */
+.stContainer {
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 1.5rem;
+}
+
+/* Result display */
+.stResult {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.stError {
+    background-color: #d32f2f;
+    border: 1px solid #b71c1c;
+    color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
